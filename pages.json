@@ -58,5 +58,40 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	"tabBar": {
+		"selectedColor": "#e52468",
+		"list": [
+			{
+			  "pagePath": "pages/index/index",
+			  "text": "首页",
+              "iconPath": "static/tabbar/shouye1.png",
+              "selectedIconPath": "static/tabbar/shouye2.png"
+			},
+			{
+			  "pagePath": "pages/community/community",
+			  "text": "社区",
+			  "iconPath": "static/tabbar/shequ1.png",
+			  "selectedIconPath": "static/tabbar/shequ2.png"
+			},
+			{
+			  "pagePath": "pages/news/news",
+			  "text": "消息",
+			  "iconPath": "static/tabbar/xiaoxi1.png",
+			  "selectedIconPath": "static/tabbar/xiaoxi2.png"
+			},
+			{
+			  "pagePath": "pages/shopping/shopping",
+			  "text": "购物",
+			  "iconPath": "static/tabbar/shopping1.png",
+			  "selectedIconPath": "static/tabbar/shopping2.png"
+			},
+			{
+			  "pagePath": "pages/my/my",
+			  "text": "我的",
+			  "iconPath": "static/tabbar/my1.png",
+			  "selectedIconPath": "static/tabbar/my2.png"
+			}
+		]
+	}
 }

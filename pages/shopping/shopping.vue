@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		购物
 	</view>
 </template>
 
